@@ -9,6 +9,8 @@ public class Leitura {
         // teclado é um objeto da classe Scanner
         Scanner teclado = new Scanner(System.in);
         System.out.print("Digite um número inteiro:");
+        //double valor = teclado.nextDouble();
+        //boolean valor= teclado.nextBoolean();
         int valor = teclado.nextInt();
         System.out.println("O valor digitado foi "+ valor);
     }

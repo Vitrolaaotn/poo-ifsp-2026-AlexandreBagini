@@ -1,4 +1,4 @@
-package app;
+package hackerrank;
 
 import java.util.Scanner;
 

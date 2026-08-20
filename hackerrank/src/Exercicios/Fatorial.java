@@ -1,4 +1,4 @@
-package app;
+package Exercicios;
 
 import java.math.BigInteger;
 import java.util.Scanner;

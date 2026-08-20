@@ -1,4 +1,4 @@
-package app;
+package Exercicios;
 // nome do arquivo sempre precisa ser o nome da classe PUBLICA
 
 public class TiposPrimitivos {

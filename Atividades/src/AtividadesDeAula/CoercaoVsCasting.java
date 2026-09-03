@@ -1,4 +1,4 @@
-package Exercicios;
+package AtividadesDeAula;
 
 public class CoercaoVsCasting {
     public static void main (String[] args) {

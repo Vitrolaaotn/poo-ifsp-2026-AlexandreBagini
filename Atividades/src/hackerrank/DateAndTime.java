@@ -1,5 +1,3 @@
-package
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -8,22 +6,6 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 import java.time.LocalDate;
-
-
-
-
-
-class Result {
-
-    /*
-     * Complete the 'findDay' function below.
-     *
-     * The function is expected to return a STRING.
-     * The function accepts following parameters:
-     *  1. INTEGER month
-     *  2. INTEGER day
-     *  3. INTEGER year
-     */
 
 
     //METODO STATIC É DA CLASSE, NÃO DA INSTÂNCIA, quando o metodo é static não é necessario a instancia/objeto para invocar o metodo
@@ -39,11 +21,11 @@ class Result {
 
     }
 
-}
+
 
 
 public static void main(String[] args) {
-    System.out.println(Result.findDay(9, 10, 2026));
+    System.out.println(findDay(9, 10, 2026));
 }
 
 

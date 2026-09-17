@@ -8,7 +8,7 @@ public class Variancia {
             v += Math.pow(valores[i]-media, 2);
 
         }
-        return v/valores.length;
+        return v/(valores.length - 1);
 
     }
 }

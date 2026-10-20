@@ -1,0 +1,4 @@
+ Funções Repetidas
+    -getNome()
+    -getCpf()
+    -getSalario()

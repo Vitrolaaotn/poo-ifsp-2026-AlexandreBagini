@@ -14,7 +14,7 @@ public class Funcionario extends Object{
     public Funcionario(){
         this("Funcionario", "00000", 2000);
     }
-    public double getSalarioBase() {
+    public double getSalario() {
         return salarioBase;
     }
 
@@ -29,7 +29,7 @@ public class Funcionario extends Object{
     // polimorfismo de herança
     @Override
     public  String toString(){
-        String mensagem = "Nome: " + getNome() + "; cpf: " + getCpf() + "; Salario: " + getSalarioBase();
+        String mensagem = "Nome: " + getNome() + "; cpf: " + getCpf() + "; Salario: " + getSalario();
 
         return mensagem;
     }

@@ -19,6 +19,11 @@ public class Funcionario {
     public double calcularBonus() {
         return salario * 0.10;
     }
+    @Override
+    public String toString() {
+        String funcionario;
+        return funcionario = getNome() + getCpf() + getSalario();
 
+    }
 }
 

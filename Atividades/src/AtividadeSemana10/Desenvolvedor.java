@@ -1,6 +1,6 @@
 package AtividadeSemana10;
 
-public class Desenvolvedor extends Funcionario {
+public class Desenvolvedor extends AtividadeSemana10.Funcionario {
 
     private String linguagemPrincipal;
 

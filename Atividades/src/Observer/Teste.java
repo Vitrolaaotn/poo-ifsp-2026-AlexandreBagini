@@ -11,8 +11,11 @@ public class Teste {
         petro.registrarInteresse(xp);
         petro.registrarInteresse(btg);
         vale.registrarInteresse(btg);
+        Jornal valor = new Jornal("Valor economico");
+        petro.registrarInteresse(valor);
 
         vale.setValor(65.17);
         petro.setValor(44.66);
+
     }
 }

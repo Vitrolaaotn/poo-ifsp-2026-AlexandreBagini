@@ -5,7 +5,10 @@ public class Teste {
         ControleDePonto ponto = new ControleDePonto();
         Funcionario funcionario = new Funcionario("Teobaldo");
 
-        ponto.registrarEntrada(funcionario);
-        ponto.registrarSaida(funcionario);
+        ControleDePontoAdapter novo = new ControleDePontoAdapter();
+
+
+        novo.registrarEntrada(funcionario);
+        novo.registrarSaida(funcionario);
     }
 }

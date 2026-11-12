@@ -1,0 +1,33 @@
+package TratamentoDeExcecoes;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class ListaNumeros {
+    private List<Integer> lista;
+    private int tamanho;
+
+    public ListaNumeros(int tam){
+        lista = new ArrayList<>();
+        Random r = new Random(System.currentTimeMillis());
+
+        for(int i=0 ; i < tam; i++){
+            lista.add(r.nextInt());
+        }
+    }
+    public void salvarLista(String arquivo){
+        try{
+        PrintWriter out = new PrintWriter(arquivo);
+        for (int i=0; i< lista.size();i++){
+            out.println("valor[" +i+ "] = " +lista.get(i));
+        }
+        out.close();//importante lembrar de fechar o out
+    }catch (FileNotFoundException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+}
